@@ -17,7 +17,7 @@ My core responsibilities in this project focused on data infrastructure setup, d
    - Established data integration rules to merge conflicting operational attributes (e.g., combining distinct string fields like first and last names into consolidated master records).
 
 2. **Data Quality Assurance:**
-   - Handled database-specific anomalies, gracefully bypassing strict mode constraints to transform invalid 0000-00-00 and broken historical dates into proper, safe NULL values.
+   - Handled database-specific anomalies, gracefully bypassing strict mode constraints to transform invalid `0000-00-00` and broken historical dates into proper, safe `NULL` values.
    - Designed robust quality checks to validate primary key uniqueness, track inconsistent column lengths, and ensure strict referential integrity by detecting orphan records across foreign references.
 
 3. **Analytics & Segmentation Engineering:**
@@ -27,18 +27,19 @@ My core responsibilities in this project focused on data infrastructure setup, d
 
 ## 📂 Repository Structure
 
-├── 1_data_setup/
-│   ├── create_gold_tables.sql      # DDL scripts for the new Star Schema components
-│   └── load_gold_layer.sql         # Bulk ingestion logic & master data file integration
-│
-├── 2_ad_hoc_analytics/
-│   ├── 1_exploration_measures.sql  # Core KPIs, descriptive statistics & base data profiling
-│   ├── 2_magnitude_analysis.sql    # Volume-based metrics & high-impact revenue drivers
-│   ├── 3_ranking_analysis.sql      # Top/bottom performance tracking, sales velocity & tiering
-│   ├── 4_change_over_time.sql      # Temporal trends, running totals & Month-over-Month growth
-│   └── 5_data_segmentation.sql     # Value-based customer tiering & cost range classification
-│
-└── 3_analytical_reporting/
-    ├── 5_customer_report.sql       # Production View: Consolidated master customer lifetime value (LTV) report
-    └── 6_product_report.sql        # Production View: Consolidated product lifecycle and performance report
+```text
+|-- 1_data_setup/
+|   |-- create_gold_tables.sql       # DDL scripts for the new Star Schema components
+|   |-- load_gold_layer.sql          # Bulk ingestion logic & master data file integration
+|
+|-- 2_ad_hoc_analytics/
+|   |-- 1_exploration_measures.sql   # Core KPIs, descriptive statistics & base data profiling
+|   |-- 2_magnitude_analysis.sql     # Volume-based metrics & high-impact revenue drivers
+|   |-- 3_ranking_analysis.sql       # Top/bottom performance tracking, sales velocity & tiering
+|   |-- 4_change_over_time.sql       # Temporal trends, running totals & Month-over-Month growth
+|   |-- 5_data_segmentation.sql      # Value-based customer tiering & cost range classification
+|
+|-- 3_analytical_reporting/
+    |-- 5_customer_report.sql        # Production View: Consolidated master customer lifetime value (LTV) report
+    |-- 6_product_report.sql         # Production View: Consolidated product lifecycle and performance report
 
