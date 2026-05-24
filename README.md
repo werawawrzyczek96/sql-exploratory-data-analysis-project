@@ -27,10 +27,15 @@ My core responsibilities in this project focused on data infrastructure setup, d
 
 ## 📂 Repository Structure
 
+## 📂 Repository Structure
+
 ```text
 |-- 1_data_setup/
 |   |-- create_gold_tables.sql       # DDL scripts for the new Star Schema components
 |   |-- load_gold_layer.sql          # Bulk ingestion logic & master data file integration
+|   |-- gold_dim_customers.csv       # Cleaned customer dataset exported for Power BI modeling
+|   |-- gold_dim_products.csv        # Cleaned product dataset exported for Power BI modeling
+|   |-- gold_fact_sales.csv          # Cleaned transactional sales records for Power BI analytics
 |
 |-- 2_ad_hoc_analytics/
 |   |-- 1_exploration_measures.sql   # Core KPIs, descriptive statistics & base data profiling
@@ -42,4 +47,3 @@ My core responsibilities in this project focused on data infrastructure setup, d
 |-- 3_analytical_reporting/
     |-- 5_customer_report.sql        # Production View: Consolidated master customer lifetime value (LTV) report
     |-- 6_product_report.sql         # Production View: Consolidated product lifecycle and performance report
-
