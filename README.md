@@ -72,6 +72,6 @@ By diversifying the visual metrics beyond standard revenue counters, the dashboa
 └── 3_final_reports/
     ├── 1_customer_report.sql        # Production View: Consolidated master customer LTV report
     ├── 2_product_report.sql         # Production View: Consolidated product lifecycle report
-    ├── Executive_Sales_Dashboard.pbix # Production BI Model & interactive semantic layers
+    ├── Executive Sales & Customer Insights Dashboard.pbix # Production BI Model & interactive semantic layers
     └── dashboard_preview.png        # Executive Dashboard visual screenshot for documentationr customer lifetime value (LTV) report
    
