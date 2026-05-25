@@ -10,8 +10,9 @@ Using this newly structured layer, I first engineered a series of advanced analy
 ## 📊 Executive Dashboard Preview
 > *Below is a snapshot of the production-ready Power BI executive suite. The interface utilizes a tailored corporate palette (navy, blue, and grey) optimized for C-level readability and fast strategic data exploration.*
 
-![Executive Sales & Customer Insights Dashboard](3_analytical_reporting/dashboard_preview.png)
-*(Note: Ensure your screenshot file is placed in the folder and matches this filename)*
+![Executive Sales & Customer Insights Dashboard](3_final_reports/dashboard_preview.png)
+
+<img width="633" height="355" alt="image" src="https://github.com/user-attachments/assets/b91e6b23-d21f-43fe-a549-0c66e917dc5a" />
 
 ---
 
