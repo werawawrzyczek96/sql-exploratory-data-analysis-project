@@ -12,8 +12,6 @@ Using this newly structured layer, I first engineered a series of advanced analy
 
 ![Executive Sales & Customer Insights Dashboard](3_final_reports/dashboard_preview.png)
 
-<img width="633" height="355" alt="image" src="https://github.com/user-attachments/assets/b91e6b23-d21f-43fe-a549-0c66e917dc5a" />
-
 ---
 
 ## 🏗️ My Contributions & Data Modeling
