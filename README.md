@@ -69,7 +69,7 @@ By diversifying the visual metrics beyond standard revenue counters, the dashboa
 │   ├── 4_change_over_time.sql       # Temporal trends, running totals & Month-over-Month growth
 │   └── 5_data_segmentation.sql      # Value-based customer tiering & cost range classification
 │
-└── 3_analytical_reporting/
+└── 3_final_reports/
     ├── 1_customer_report.sql        # Production View: Consolidated master customer LTV report
     ├── 2_product_report.sql         # Production View: Consolidated product lifecycle report
     ├── Executive_Sales_Dashboard.pbix # Production BI Model & interactive semantic layers
